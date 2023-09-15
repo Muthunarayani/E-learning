@@ -1,0 +1,41 @@
+/* Footer.css */
+
+.footer {
+    background-color: rgba(23, 22, 22, 0.745); /* Transparent black color */
+    margin-top: 700px;
+    height: 300px;
+  }
+  .col1{
+    
+    width: 250px; /* Set the desired width of the column */
+    float: left; /* Float the column to the left */
+    margin-right: 20px; 
+    padding-top: 30px;
+  }
+  
+  
+  
+  .col1 a {
+    color: #fff; /* Text color inside the box */
+    text-decoration: none;
+    margin-right: 10px;
+    padding-left: 10pX;
+  }
+  .col1 p1{
+    color: #fff; 
+  }
+  
+  .footer-info {
+    font-size: 12px;
+    color: #cb6a6a; 
+    padding-top: 200px;/* Text color inside the box */
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+    padding-top: 30px;
+  }
+  .footer-info p2 {
+    margin: 5px 0;
+    padding-top: 10px;
+  }

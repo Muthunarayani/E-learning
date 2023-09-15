@@ -1,0 +1,138 @@
+/*p ,li{
+    font-weight: bold;
+}*/
+h3 {
+    color:blue ;
+    text-shadow: 5px 3px 5px gray;
+    font-size: xx-large;
+    padding-left: 30px;
+    background-color: red;
+    
+}
+#qoute {
+    color: purple;
+    text-shadow: 5px 3px 5px palevioletred;
+    font-size: x-large;
+}
+
+
+.h2 {
+    font-size: xx-large;
+}
+.blink {
+    animation: blinker 1s linear infinite;
+    color:blueviolet;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  .car {
+    display: flex;
+    gap: 50px;
+    
+    justify-content: center;
+    
+  }
+  .div1 {
+    width: 600px; /* Set the desired width of the column */
+    float: left; /* Float the column to the left */
+    margin-right: 20px; /* Add some margin to create space between columns */
+  }
+  
+  .div1 img {
+    max-width: 10%; /* Ensure the image doesn't exceed the column width */
+  }
+  .bus {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+  }
+  .div2 {
+    width: 600px; /* Set the desired width of the column */
+    float: left; /* Float the column to the left */
+    margin-right: 20px; /* Add some margin to create space between columns */
+  }
+  
+  .div2 img {
+    max-width: 20%; /* Ensure the image doesn't exceed the column width */
+  }
+  .text-center {
+    text-align: center; /* Align the heading to the center */
+  }
+
+  
+  .d2{
+    width: 600px; /* Set the desired width of the column */
+    float: right; /* Float the column to the left */
+    margin-right: 20px; 
+    margin-top: 1px;
+    background-color: bisque;
+    
+    
+  }
+  .div3{
+    margin-top: 80px;
+    width: 600px; /* Set the desired width of the column */
+    float: left; /* Float the column to the left */
+    margin-right: 20px; 
+    padding-left: 20px;
+    background-color: rgb(188, 212, 127);
+  }
+  .div4{
+  
+    width: 600px; /* Set the desired width of the column */
+    float: left; /* Float the column to the left */
+    margin-left: 20px; 
+    padding-left: 95px;
+    background-color: rgb(198, 146, 83);
+    margin-top: 400px;
+    text-align: start;
+  }
+    .image {
+      height: 200px;
+      width:  450px;
+      padding-left: 20px;
+      padding-top: 200px;
+    
+      
+     }
+     .can {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+      }
+      .clm1{
+        width: 900px; /* Set the desired width of the column */
+        float: left; /* Float the column to the left */
+        margin-right: 20px;
+       
+      }
+      
+      .clm p {
+        margin-top: 10px; 
+        text-align: justify;/* Add some space between the image and the paragraph */
+      }
+      .text-lef {
+        text-align: left; 
+        text-align: justify;/* Align the text to the left */
+      }
+      .d1 img {
+        max-width: 50%;
+         /* Ensure the image doesn't exceed the column width */
+      }
+      .text-leftt {
+        text-align: left; 
+        background-color: whitesmoke;
+        padding: 30px;
+        font-size: 16px;
+        font-family: Verdana;
+        
+        /* Align the text to the left */
+      }
+      .text-leftt:hover{
+        background-color:plum;
+        color: black;
+      }
